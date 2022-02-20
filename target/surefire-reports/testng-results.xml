@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-17T21:52:12 PST" name="nopCommerce regression test suite" finished-at="2022-02-17T21:52:40 PST" duration-ms="27345">
+    <groups>
+    </groups>
+    <test started-at="2022-02-17T21:52:12 PST" name="home page test" finished-at="2022-02-17T21:52:28 PST" duration-ms="16021">
+      <class name="com.nopcommerce.tests.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.tests.HomePageTest@2af4129d]" started-at="2022-02-17T21:52:12 PST" name="setUp" finished-at="2022-02-17T21:52:28 PST" duration-ms="15327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatePageTitleTest()[pri:1, instance:com.nopcommerce.tests.HomePageTest@2af4129d]" started-at="2022-02-17T21:52:28 PST" name="validatePageTitleTest" finished-at="2022-02-17T21:52:28 PST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePageTitleTest -->
+        <test-method signature="verifyLogoTest()[pri:2, instance:com.nopcommerce.tests.HomePageTest@2af4129d]" started-at="2022-02-17T21:52:28 PST" name="verifyLogoTest" finished-at="2022-02-17T21:52:28 PST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoTest -->
+        <test-method signature="verifyRegisterLinkTest()[pri:3, instance:com.nopcommerce.tests.HomePageTest@2af4129d]" started-at="2022-02-17T21:52:28 PST" name="verifyRegisterLinkTest" finished-at="2022-02-17T21:52:28 PST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterLinkTest -->
+        <test-method signature="verifyLoginLinkTest()[pri:4, instance:com.nopcommerce.tests.HomePageTest@2af4129d]" started-at="2022-02-17T21:52:28 PST" name="verifyLoginLinkTest" finished-at="2022-02-17T21:52:28 PST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.tests.HomePageTest@2af4129d]" started-at="2022-02-17T21:52:28 PST" name="tearDown" finished-at="2022-02-17T21:52:28 PST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.tests.HomePageTest -->
+    </test> <!-- home page test -->
+    <test started-at="2022-02-17T21:52:12 PST" name="search page test" finished-at="2022-02-17T21:52:30 PST" duration-ms="17468">
+      <class name="com.nopcommerce.tests.SearchPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.tests.SearchPageTest@7a8406c2]" started-at="2022-02-17T21:52:12 PST" name="setUp" finished-at="2022-02-17T21:52:23 PST" duration-ms="11071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="searchPageSetup()[pri:0, instance:com.nopcommerce.tests.SearchPageTest@7a8406c2]" started-at="2022-02-17T21:52:24 PST" name="searchPageSetup" finished-at="2022-02-17T21:52:25 PST" duration-ms="1208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPageSetup -->
+        <test-method signature="verifySearchpageNameTest()[pri:1, instance:com.nopcommerce.tests.SearchPageTest@7a8406c2]" started-at="2022-02-17T21:52:25 PST" name="verifySearchpageNameTest" finished-at="2022-02-17T21:52:25 PST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchpageNameTest -->
+        <test-method is-config="true" signature="searchPageSetup()[pri:0, instance:com.nopcommerce.tests.SearchPageTest@7a8406c2]" started-at="2022-02-17T21:52:25 PST" name="searchPageSetup" finished-at="2022-02-17T21:52:26 PST" duration-ms="979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPageSetup -->
+        <test-method signature="verifymanufactureDropdownListTest()[pri:2, instance:com.nopcommerce.tests.SearchPageTest@7a8406c2]" started-at="2022-02-17T21:52:26 PST" name="verifymanufactureDropdownListTest" finished-at="2022-02-17T21:52:27 PST" duration-ms="522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifymanufactureDropdownListTest -->
+        <test-method is-config="true" signature="searchPageSetup()[pri:0, instance:com.nopcommerce.tests.SearchPageTest@7a8406c2]" started-at="2022-02-17T21:52:27 PST" name="searchPageSetup" finished-at="2022-02-17T21:52:28 PST" duration-ms="781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPageSetup -->
+        <test-method signature="validateCategoryListTest()[pri:3, instance:com.nopcommerce.tests.SearchPageTest@7a8406c2]" started-at="2022-02-17T21:52:28 PST" name="validateCategoryListTest" finished-at="2022-02-17T21:52:28 PST" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCategoryListTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.tests.SearchPageTest@7a8406c2]" started-at="2022-02-17T21:52:28 PST" name="tearDown" finished-at="2022-02-17T21:52:30 PST" duration-ms="1776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.tests.SearchPageTest -->
+    </test> <!-- search page test -->
+    <test started-at="2022-02-17T21:52:12 PST" name="log in test" finished-at="2022-02-17T21:52:30 PST" duration-ms="18125">
+      <class name="com.nopcommerce.tests.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.tests.LoginPageTest@d0865a3]" started-at="2022-02-17T21:52:12 PST" name="setUp" finished-at="2022-02-17T21:52:24 PST" duration-ms="11792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginPageSetup()[pri:0, instance:com.nopcommerce.tests.LoginPageTest@d0865a3]" started-at="2022-02-17T21:52:24 PST" name="loginPageSetup" finished-at="2022-02-17T21:52:25 PST" duration-ms="919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageSetup -->
+        <test-method signature="verifyLoginPageNameTest()[pri:1, instance:com.nopcommerce.tests.LoginPageTest@d0865a3]" started-at="2022-02-17T21:52:25 PST" name="verifyLoginPageNameTest" finished-at="2022-02-17T21:52:25 PST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageNameTest -->
+        <test-method signature="verifyRegisterButtonStatus()[pri:2, instance:com.nopcommerce.tests.LoginPageTest@d0865a3]" started-at="2022-02-17T21:52:25 PST" name="verifyRegisterButtonStatus" finished-at="2022-02-17T21:52:26 PST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterButtonStatus -->
+        <test-method signature="validateUserLoginTest()[pri:3, instance:com.nopcommerce.tests.LoginPageTest@d0865a3]" started-at="2022-02-17T21:52:26 PST" name="validateUserLoginTest" finished-at="2022-02-17T21:52:29 PST" duration-ms="3754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.tests.LoginPageTest@d0865a3]" started-at="2022-02-17T21:52:30 PST" name="tearDown" finished-at="2022-02-17T21:52:30 PST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.tests.LoginPageTest -->
+    </test> <!-- log in test -->
+    <test started-at="2022-02-17T21:52:12 PST" name="register page test" finished-at="2022-02-17T21:52:40 PST" duration-ms="27345">
+      <class name="com.nopcommerce.tests.RegisterPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.tests.RegisterPageTest@212dfd39]" started-at="2022-02-17T21:52:12 PST" name="setUp" finished-at="2022-02-17T21:52:31 PST" duration-ms="18299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="registerPageSetup()[pri:0, instance:com.nopcommerce.tests.RegisterPageTest@212dfd39]" started-at="2022-02-17T21:52:33 PST" name="registerPageSetup" finished-at="2022-02-17T21:52:33 PST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerPageSetup -->
+        <test-method signature="registerNewUserTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.tests.RegisterPageTest@212dfd39]" started-at="2022-02-17T21:52:33 PST" name="registerNewUserTest" data-provider="getUserData" finished-at="2022-02-17T21:52:40 PST" duration-ms="6370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Oliver]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Feburary]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1975]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[j@yahoo.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Apple]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewUserTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.tests.RegisterPageTest@212dfd39]" started-at="2022-02-17T21:52:40 PST" name="tearDown" finished-at="2022-02-17T21:52:40 PST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.tests.RegisterPageTest -->
+    </test> <!-- register page test -->
+  </suite> <!-- nopCommerce regression test suite -->
+</testng-results>
